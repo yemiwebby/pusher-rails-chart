@@ -1,4 +1,4 @@
-## Build a live comment application using Ruby and Pusher
+## Build a realtime graph with Ruby on Rails and Pusher channels
 
 A demo of a live comment application built with Ruby and Pusher.
 
