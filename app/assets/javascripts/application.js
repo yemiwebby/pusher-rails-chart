@@ -20,21 +20,3 @@
 //= require Chart.bundle
 //= require chartkick
 //= require_tree .
-
-
-$(document).on('turbolinks:load', function(event){
-    console.log("right here");
-    var chart = Chartkick.charts['polls'].getChartObject();
-    var newData = [
-        ["Yes", 3],
-         ["No", 9]
-    ]
-    chart.update(newData);
-    // chart.updateData(newData)
-    // console.log(chart.data.datasets[0].data[newData]);
-    // setInterval(() => {
-    //     var indexToUpdate = Math.round(Math.random() * 30);
-    //     chart.data.datasets[0].data[indexToUpdate] = Math.random() * 100;
-    //     chart.update();
-    // }, 1000);
-});
