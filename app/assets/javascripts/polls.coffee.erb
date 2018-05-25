@@ -22,11 +22,11 @@ $ ->
 updateChart = (data) ->
   chart = Chartkick.charts['polls'].getChartObject()
   if data.laptop == 'yes'
-    chart.data.datasets[0].data[0]++;
+    chart.data.datasets[0].data[0]++
     chart.update()
   else
-    chart.data.datasets[0].data[1]++;
-    chart.update(); 
+    chart.data.datasets[0].data[1]++
+    chart.update()
 
 
 $ ->
