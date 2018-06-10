@@ -2,6 +2,8 @@
 
 A demo of a realtime graph application built with Ruby on Rails and Pusher.
 
+[View tutorial](https://pusher.com/tutorials/polling-ruby-rails-postgresql)
+
 Screenshot of the demo app
 
 ![ruby-graph](https://user-images.githubusercontent.com/19610753/40513674-6381e962-5f9e-11e8-8e74-4001a71be1c5.gif)
